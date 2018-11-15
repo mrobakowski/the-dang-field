@@ -1,6 +1,4 @@
 # The Dang Field
-Scala library for setting that dang private field in someone else's code.
-
 We've all been in a situation where the lib wasn't flexible enough and didn't allow us to customize some aspect of it.
 So you went and contributed to the library to add the missing functionality or add some more setters to let you customize
 the behaviour that way. **Yay, Open Source! 🎉**
