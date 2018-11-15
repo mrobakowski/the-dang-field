@@ -1,4 +1,4 @@
-package dang.field
+package io.github.mrobakowski.thedangfield
 
 import org.scalatest.{FlatSpec, Matchers}
 

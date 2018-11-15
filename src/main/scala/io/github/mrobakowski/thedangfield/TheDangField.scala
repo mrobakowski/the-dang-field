@@ -1,4 +1,4 @@
-package dang.field
+package io.github.mrobakowski.thedangfield
 
 import scala.util.Try
 import java.lang.reflect.{Field, ParameterizedType}
