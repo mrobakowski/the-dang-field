@@ -22,8 +22,8 @@ It gets ugly really quickly. This library aims to help with that:
 ```scala
 import TheDangFieldImplicits._
 val lib = SomeLibrary.getInstance()
-// any of `privateEngine`, `valveFactory`, and `meaningOfLife` may be private, final, and located arbitrarily deep in
-// the class hierarchy
+// any of `privateEngine`, `valveFactory`, and `meaningOfLife` may be private, final, 
+// and located arbitrarily deep in the class hierarchy
 val i: Int = lib getMe TheDangField.privateEngine.valveFactory.meaningOfLife
 lib set TheDangField.privateEngine.valveFactory.meaningOfLife to (i * 10)
 ```
