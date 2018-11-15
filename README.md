@@ -23,7 +23,7 @@ It gets ugly really quickly. This library aims to help with that:
 import TheDangFieldImplicits._
 val lib = SomeLibrary.getInstance()
 val i: Int = lib getMe TheDangField.privateEngine.valveFactory.meaningOfLife
-lib set TheDangField.privateEngine.valveFactory to (i * 10)
+lib set TheDangField.privateEngine.valveFactory.meaningOfLife to (i * 10)
 ```
 
 You can see more examples [in the tests](src/test/scala/io/github/mrobakowski/thedangfield/TheDangFieldTest.scala).
